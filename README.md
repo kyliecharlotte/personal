@@ -1,5 +1,5 @@
 # kyliegriffiths.github.io
-<h1 align="center">Hi 👋, I'm Kylie Griffiths</h1>
+<h1 align="center"> 👧 I'm Kylie Griffiths</h1>
 <h3 align="center">A passionate Computer Science student at University of Oregon</h3>
 
 <h3 align="left">Connect with me:</h3>
