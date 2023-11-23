@@ -1,4 +1,4 @@
-# kyliegriffiths.github.io
+
 <h1 align="center"> 👧 I'm Kylie Griffiths</h1>
 <h3 align="center">A passionate Computer Science student at University of Oregon</h3>
 
