@@ -1,10 +1,10 @@
 <!--kyliegriffiths.github.io-->
-<h1 align="center"> 👧 I'm Kylie Griffiths</h1>
-<h3 align="center">A passionate Computer Science student at University of Oregon</h3>
+<h1 align="center">Kylie Griffiths</h1>
+<h3 align="center">Double major in Computer Science and Mathematics at University of Oregon</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/www.linkedin.com/in/kylie-griffiths-3859b729b" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/kylie-griffiths-3859b729b" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/kylie-griffiths-3859b729b/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/kylie-griffiths-3859b729b" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
