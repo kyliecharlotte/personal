@@ -1,31 +1,110 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
+    <title>Personal Site</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="wrapper">
       <section>
+        <header class="header">
+          Kylie Griffiths - <header class = "small_header"><u>Computer Science</u> and <u>Mathematics</u> double major at the <i>University of Oregon</i> (UO)
+          <br> Eugene, OR</header>
+        </header>
+      </section>
 
-      {{ content }}
+      <br>
+
+      <section>
+        <nav class="topnav">
+          <a class="a" href="#projects">Projects</a>
+          <a class="a" href="#research">Research</a>
+          <a class="a" href="#about me">About Me</a>
+          </nav>
+        </nav>
+      </section>
+
+      <br>
+
+      <section>
+        <div class="column middle" id="projects">
+          <div class="col_content">
+            <u>Projects:</u>
+            <br>
+            <br>
+
+            This list contains links to projects that I have developed both alone and with a larger group.
+            <ol>
+              <li><i>easyA</i> - Group project for CS 422 (Software Methodologies) at the University of Oregon. 
+              <br><br> easyA was designed to let students visualize the grade distribution for different classes across the UO.
+              I built the web scraper and administrative tools responsible for updating the data used.  
+              <br>
+              <br>
+              Link: <a href="https://github.com/Joseph-Macalinao/422-Winter24">easyA</a>
+              </li>
+              <br>
+              <li><i>Dollarless Dining</i> - Group project for CS 422 (Software Methodologies) at the University of Oregon.
+              <br><br>Dollarless Dining is a visualization and information tool for students at the UO to view upcoming 
+              free food resources and where they are found. I came up with the concept, built the web scraper, and developed
+               admin tools for the updating of the food information. 
+              <br><br> Link: <a href = "https://github.com/kittkod/422-winter-project2">Dollarless Dining</a>
+              </li>
+              <br>
+              <li> <i>Concert Scan</i> - Solo Project for CS 407 (Career Internships Seminar) at the University of Oregon.
+              <br><br> Concert Scan allows users to either enter an artist's name, select a venue, or select a date range, 
+              to view upcoming events in Eugene relating to their choice. This was a personal project I created to work with 
+              GUIs and web scraping.
+              <br><br> Link: <a href = "https://github.com/kyliecharlotte/407-Winter24">Concert Scan</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="column middle" id="research">
+          <div class="col_content">
+
+            <u>Research:</u>
+            <br>
+            <br>
+            In June of 2024, I will be attending an 8-week summer research program (REU) at Georgetown University in Washington, DC.
+            <br>
+            <figure>
+            <img src = "Georgetown_screenshot.png" alt="Georgetown REU Title" class = "img_center">
+            <figcaption style="font-size: small; text-align: center;">Taken from Georgetown REU page, all credit to author: https://reu.cs.georgetown.edu/ </figcaption>
+            </figure>
+            <br>
+            This REU will utilize incoming misinformation detection techniques to analyze multiple information hubs (surveys, social media,
+            newspaper articles) leading up to the 2024 election. I will be working under Dr. Lisa Singh, who is a Professor of Computer Science
+            at Georgetown who specializes in data-centric computing. Additionally, the program features more Georgetown CS faculty members 
+            as mentors, including Dr. Sarah Bargal and Dr. Micah Sherr. 
+            <br><br>
+            I am excited for this opportunity to colloborate with fellow cohort members and faculty, as well as tackling such an 
+            interesting and large (in scope) project. 
+          </div>
+        </div>
+
+        <div class="column middle" id="about me">
+          <div class="col_content">
+            <u>About Me:</u>
+            <br>
+            <br>
+            <figure>
+              <img src = "self_portrait.png" alt="Photo of Kylie Griffiths" class = "self_img">
+            </figure>
+            Fast Facts:
+            
+
+          </div>
+        </div>
 
       </section>
+
+
+
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>This project is maintained by <a href=""></a></p>
       </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
