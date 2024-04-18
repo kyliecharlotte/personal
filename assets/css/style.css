@@ -4,6 +4,27 @@
 }
 .p {
     color: #444;
+    font-size: large;
+}
+.p_small {
+    color: #444;
+    font-size: medium;
+}
+.link {
+    color: #5eabb2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-bottom: 1%;
+}
+.link:hover {
+    cursor:pointer;
+}
+.info {
+    color: #5eabb2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 .header {
     font-family:'Times New Roman', Times, serif;
@@ -36,6 +57,9 @@
 .active, .collapsible:hover {
     background-color: #b3b3b3;
   }
+.collapsible:hover {
+    cursor: pointer;
+}
   
   /* Style the collapsible content. Note: hidden by default */
   .content {
@@ -72,6 +96,13 @@
     border-style: solid;
     clear: both;
 }
+.img_example {
+    width: 45%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
 
 /* Different Size Devices */
 @media screen and (max-width:800px) {
@@ -91,4 +122,12 @@
         border: black;
         border-style: solid;
     }
+    .img_example {
+        width: 30%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
 }
