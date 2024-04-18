@@ -1,101 +1,93 @@
-/*Header Types*/
+/* Header Types */
+.body {
+    background-color: #e6e6e6;
+}
+.p {
+    color: #444;
+}
 .header {
-    background-color: #BCE0CD;
-    text-align: center;
-    font-size: x-large;
-    padding: 3%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #444;
 }
 .small_header {
-    background-color: #BCE0CD;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: #444;
+}
+/*Collapsibles*/
+.collapsible {
+    background-color: #d9d9d9;
+    font-family:'Times New Roman', Times, serif;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    border: #ababab solid;
+    outline: none;
     font-size: large;
 }
-
-/*Navigation Menu*/
-.topnav {
+.active, .collapsible:hover {
+    background-color: #b3b3b3;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    color:#444;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: none;
     overflow: hidden;
-    background-color: #BCE0CD;
-    display: flex;
-    justify-content: center;
-}
+    background-color: #d9d9d9;
+    border: #ababab solid;
+  }
 
-.topnav a {
-    flex: 1;
-    display: block;
-    color: #256241;
-    text-align: center;
-    font-size: large;
-    padding: 20px;
-}
-
-.topnav a:hover {
-    background-color: #A5DEC0;
-    color: black;
-}
-
-/*Columns*/
-.column {
-    float:left;
-    box-sizing: border-box;
-}
-
-.column.middle {
-    width: 31%;
-    background-color: #BCE0CD;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-/* Projects Information */
-.col_content {
-    margin: 2%;
-    color: black;
-    font-size: large;
-}
-
+/* General Images*/
 .img_center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    height: 65%;
+    float:left;
+    margin-right: 2%;
+    margin-bottom: 5px;
+    width: 35%;
     border: black;
     border-style: solid;
+    clear: both;
 }
-/* About Me */
+/* About Me Image */
 .self_img {
     float: left;
     margin-right: 2%;
-    width: 45%;
+    margin-bottom: 5px;
+    width: 30%;
     height: auto;
     border: black;
     border-style: solid;
-    clear: left;
+    clear: both;
 }
 
 /* Different Size Devices */
-@media screen and (max-width:750px) {
-    .column.side, .column.middle {
-        width: 100%;
-    }
-    .column.middle {
-        margin-right: 0%;
-        margin-left: 0%;
-    }
+@media screen and (max-width:800px) {
     .img_center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 83%;
-        height: 80%;
+        float: left;
+        margin-right: 2%;
+        margin-bottom: 5px;
+        width: 43%;
         border: black;
         border-style: solid;
     }
     .self_img {
         float:left;
-        margin-right: 1%;
-        width: 55%;
-        height: 50%;
+        margin-right: 2%;
+        margin-bottom: 1%;
+        width: 35%;
         border: black;
         border-style: solid;
     }

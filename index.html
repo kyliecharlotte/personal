@@ -6,31 +6,47 @@
     <title>Personal Site</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
-  <body>
+  <body class = "body">
     <div class="wrapper">
       <section>
         <header class="header">
-          Kylie Griffiths - <header class = "small_header"><u>Computer Science</u> and <u>Mathematics</u> double major at the <i>University of Oregon</i> (UO)
-          <br> Eugene, OR</header>
+          <u>Kylie Griffiths</u> <header class = "small_header">Computer Science and Mathematics undergraduate at the <i>University of Oregon</i> (UO)
+          <br> Eugene, OR
         </header>
+          <figure>
+            <img src = "assets/images/self_portrait.png" alt="Photo of Kylie Griffiths" class = "self_img">
+          </figure>
+        </header>
+        <p class="p">I am a current third year student at the University of Oregon in Eugene, Oregon. Formally from Beaverton, Oregon outside of Portland.
+          <br><br>I am pursuing a Bachelor of Science in Computer Science and Mathematics. I plan to apply for graduate programs in Fall 2024.
+          <br><br>Current Courses: 
+          <br>
+          - Math 281 (Multivariable Calculus II)
+          <br>
+          - CS 451 (Database Processing)
+          <br>
+          - CS 313 (Intermediate Data Structures)
+          <br><br>
+          I have been employed as a paper marker for the Mathematics department at UO since March 2023. I am currently a paper marker for Math 343 (Statistics).
+          <br><br>
+          In my free time, I enjoy drawing, indoor and outdoor bouldering, and playing video games. 
+        </p>
       </section>
-
-      <br>
-
       <section>
-        <nav class="topnav">
-          <a class="a" href="#projects">Projects</a>
-          <a class="a" href="#research">Research</a>
-          <a class="a" href="#about me">About Me</a>
-          </nav>
-        </nav>
+        <button type="button" class = "collapsible">Technical Information</button>
+          <div class="content">
+            <i>Coding Languages:</i> <br><br>
+            Python | HTML / CSS | JavaScript | C | C++ | Java | SQL
+            <br><br>
+          <i>Profiencies:</i> <br> <br>
+            macOS/Linux/Windows | MySQL | Data Structures and Algorithms | GitHub | Node.js | Software Architecture | Frontend Development | Backend Development
+            | Statistical Data Analysis and Visualization | Git | RESTful APIs | Responsive Web Design | GUI Creation | Software Development Skills | User Experience Design |
+
+          </div>
       </section>
-
-      <br>
-
       <section>
-        <div class="column middle" id="projects">
-          <div class="col_content">
+        <button type="button" class = "collapsible">Projects</button>
+          <div class="content">
             <u>Projects:</u>
             <br>
             <br>
@@ -60,20 +76,15 @@
               </li>
             </ol>
           </div>
-        </div>
-        <div class="column middle" id="research">
-          <div class="col_content">
-
-            <u>Research:</u>
-            <br>
-            <br>
+      </section>
+      <section>
+      <button type="button" class = "collapsible">Research</button>
+          <div class="content">
             In June of 2024, I will be attending an 8-week summer research program (REU) at Georgetown University in Washington, DC.
             <br>
             <figure>
             <img src = "assets/images/Georgetown_screenshot.png" alt="Georgetown REU Title" class = "img_center">
-            <figcaption style="font-size: small; text-align: center;">Taken from Georgetown REU page, all credit to author: https://reu.cs.georgetown.edu/ </figcaption>
             </figure>
-            <br>
             This REU will utilize incoming misinformation detection techniques to analyze multiple information hubs (surveys, social media,
             newspaper articles) leading up to the 2024 election. I will be working under Dr. Lisa Singh, who is a Professor of Computer Science
             at Georgetown who specializes in data-centric computing. Additionally, the program features more Georgetown CS faculty members 
@@ -81,30 +92,29 @@
             <br><br>
             I am excited for this opportunity to colloborate with fellow cohort members and faculty, as well as tackling such an 
             interesting and large (in scope) project. 
+            <br><br>
+            <figcaption style="font-size: small; text-align: left;">Image taken from Georgetown REU page, all credit to author: https://reu.cs.georgetown.edu/ </figcaption>
           </div>
-        </div>
-
-        <div class="column middle" id="about me">
-          <div class="col_content">
-            <u>About Me:</u>
-            <br>
-            <br>
-            <figure>
-              <img src = "assets/images/self_portrait.png" alt="Photo of Kylie Griffiths" class = "self_img">
-            </figure>
-            Fast Facts:
-            
-
-          </div>
-        </div>
-
       </section>
-
-
-
-      <footer>
-        <p>This project is maintained by <a href=""></a></p>
-      </footer>
-    </div>
+      <section>
+        <p class="p">Connect with me:</p>
+      </section>
+  </div>
   </body>
+  <script>
+    var collapsible = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < collapsible.length; i++) {
+      collapsible[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
 </html>
