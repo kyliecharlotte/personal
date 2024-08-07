@@ -14,13 +14,13 @@
     color: #5eabb2;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
-    margin-bottom: 1%;
+    margin-bottom: 1%; 
 }
 .link:hover {
     cursor:pointer;
 }
 .info {
-    color: #5eabb2;
+    color: #33787e;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     margin-bottom: 1%;
@@ -40,7 +40,7 @@
     font-family: 'Times New Roman', Times, serif;
     color: #444;
 }
-/*Collapsibles*/
+/* Collapsibles */
 .collapsible {
     background-color: #d9d9d9;
     font-family:'Times New Roman', Times, serif;
