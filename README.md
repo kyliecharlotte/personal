@@ -10,7 +10,7 @@
     To view my personal site, go to: https://kyliecharlotte.github.io/personal/
   </p>
   <p>
-    If you have any questions, feel free to reach out! 
+    I am happy to provide access to a school project showcasing work with MySQL and PHP if there is interest (the SQL server is not continuously running). If you have any questions about my site, feel free to reach out! 
   </p>
   <h4 align="left">
     Personal Email: kcg3@icloud.com
